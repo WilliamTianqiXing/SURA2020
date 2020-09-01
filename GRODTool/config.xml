@@ -1,0 +1,25 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>Python Addin</Name><AddInID>{c266bf5b-a416-467d-8905-449c461bdd37}</AddInID><Description>New Addin</Description><Version>0.1</Version><Image>Images\add_in_logo.png</Image><Author>William</Author><Company>William</Company><Date>07/18/2020</Date><Targets><Target name="Desktop" version="10.1" /></Targets><AddIn language="PYTHON" library="GRODTool_addin.py" namespace="GRODTool_addin"><ArcMap>
+    <Commands>
+        <Button caption="Full" category="Python Addin" class="Full" id="GRODTool_addin.button" image="" message="Full" tip="Full"><Help heading="Full">Full</Help></Button>
+        <Button caption="Partial" category="Python Addin" class="Partial" id="GRODTool_addin.button_1" image="" message="Partial" tip="Partial"><Help heading="Partial">Partial</Help></Button>
+        <Button caption="No" category="Python Addin" class="No" id="GRODTool_addin.button_2" image="" message="No" tip="No"><Help heading="No">No</Help></Button>
+        <Button caption="Multiple" category="Python Addin" class="Multiple" id="GRODTool_addin.button_3" image="" message="Multiple" tip="Multiple"><Help heading="Multiple">Multiple</Help></Button>
+        <Button caption="Duplicate" category="Python Addin" class="Duplicate" id="GRODTool_addin.button_4" image="" message="Duplicate" tip="Duplicate"><Help heading="Duplicate">Duplicate</Help></Button>
+        <Button caption="Canal" category="Python Addin" class="Canal" id="GRODTool_addin.button_5" image="" message="Canal" tip="Canal"><Help heading="Canal">Canal</Help></Button>
+        <Button caption="Tributary" category="Python Addin" class="Tributary" id="GRODTool_addin.button_6" image="" message="Tributary" tip="Tributary"><Help heading="Tributary">Tributary</Help></Button>
+        <Button caption="FMove" category="Python Addin" class="FMove" id="GRODTool_addin.button_7" image="" message="FMove" tip="FMove"><Help heading="FMove">FMove</Help></Button>
+        <Button caption="CURB" category="Python Addin" class="CURB" id="GRODTool_addin.button_8" image="" message="CURB" tip="CURB"><Help heading="CURB">CURB</Help></Button>
+        <Button caption="Strong" category="Python Addin" class="Strong" id="GRODTool_addin.button_9" image="" message="Strong" tip="Strong"><Help heading="Strong">Strong</Help></Button>
+        <Button caption="Fair" category="Python Addin" class="Fair" id="GRODTool_addin.button_10" image="" message="Fair" tip="Fair"><Help heading="Fair">Fair</Help></Button>
+        <Button caption="Poor" category="Python Addin" class="Poor" id="GRODTool_addin.button_11" image="" message="Poor" tip="Poor"><Help heading="Poor">Poor</Help></Button>
+        <Button caption="Next" category="Python Addin" class="Next" id="GRODTool_addin.button_12" image="Images\button_right_arrow_green.png" message="Next" tip="Next"><Help heading="Next">Next</Help></Button>
+        <Button caption="Reset" category="Python Addin" class="Reset" id="GRODTool_addin.button_13" image="" message="Reset" tip="Reset"><Help heading="Reset">Reset</Help></Button>
+        </Commands>
+    <Extensions>
+        </Extensions>
+    <Toolbars>
+        <Toolbar caption="GRODTool" category="Python Addin" id="GRODTool_addin.toolbar" showInitially="true"><Items><Button refID="GRODTool_addin.button" /><Button refID="GRODTool_addin.button_1" /><Button refID="GRODTool_addin.button_2" /><Button refID="GRODTool_addin.button_3" /><Button refID="GRODTool_addin.button_4" /><Button refID="GRODTool_addin.button_5" /><Button refID="GRODTool_addin.button_6" /><Button refID="GRODTool_addin.button_7" /><Button refID="GRODTool_addin.button_8" /><Button refID="GRODTool_addin.button_9" /><Button refID="GRODTool_addin.button_10" /><Button refID="GRODTool_addin.button_11" /><Button refID="GRODTool_addin.button_12" /><Button refID="GRODTool_addin.button_13" /></Items></Toolbar>
+        </Toolbars>
+    <Menus>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>
